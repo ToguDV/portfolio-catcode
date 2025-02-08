@@ -834,6 +834,7 @@ h6 {
 	font-weight: 800;
 	background-attachment: fixed;
 	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 	animation: experience 25s linear infinite;
 }
 
@@ -1193,6 +1194,7 @@ h6 {
 .ryker_tm_portfolio .portfolio_list ul li .list_inner:hover {
 	animation-name: hoverPop;
 	animation-duration: .4s;
+	animation-fill-direction: forward;
 }
 
 .ryker_tm_portfolio .portfolio_list ul li .list_inner:hover .main:before {
