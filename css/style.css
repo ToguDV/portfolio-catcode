@@ -564,11 +564,13 @@ h6 {
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
+	position:  relative;
+	z-index: 15;
 }
 
 .ryker_tm_hero .desc p {
 	max-width: 550px;
-	font-size: 17px;
+	font-size: 17px;;
 }
 
 .ryker_tm_button {
@@ -668,6 +670,7 @@ h6 {
 	position: absolute;
 	bottom: 8%;
 	left: auto;
+	
 }
 
 .short_skills .text {
