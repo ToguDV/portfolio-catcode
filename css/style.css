@@ -2250,6 +2250,7 @@ h6 {
 	clear: both;
 	float: left;
 	padding: 140px 0px 150px 0px;
+	background-color: #F9F9F9;
 }
 
 .ryker_tm_contact .short_info {
@@ -3508,7 +3509,7 @@ Usage: codyhouse.co/license
   -------------------------------- */
   
   .cta-banner {
-	background-color: #262626;
+	background-color: #080808;
 	overflow: hidden;
   }
   
@@ -3523,7 +3524,7 @@ Usage: codyhouse.co/license
   }
   
   .cta-banner__content {
-	text-align: center;
+	text-align: left;
 	display: grid;
 	gap: 0.75rem;
   }
@@ -3540,8 +3541,6 @@ Usage: codyhouse.co/license
   .cta-banner__btns {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
 	gap: 1rem;
   }
   

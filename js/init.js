@@ -554,7 +554,7 @@ function ryker_tm_owl_carousel(){
 		items: 1,
 		lazyLoad: true,
 		autoplay: true,
-		autoplayTimeout: 6000,
+		autoplayTimeout: 3000,
 		smartSpeed: 2000,
 		margin: 0,
 		dots: true,
