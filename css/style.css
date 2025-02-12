@@ -3538,6 +3538,9 @@ Usage: codyhouse.co/license
   
   .cta-banner__title {
 	font-size: 1.75rem;
+	color: #ddd;
+	padding: 5px;
+	margin-top: 50px;
   }
   
   .cta-banner__description {
@@ -3549,10 +3552,12 @@ Usage: codyhouse.co/license
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
+	margin-top: 20px;
   }
   
   .cta-banner__img {
-	width: 100%;
+	width: 500px;
+	transform: scaleX(-1);
   }
   
   @media (min-width: 64rem) {
@@ -3570,9 +3575,28 @@ Usage: codyhouse.co/license
 	}
   
 	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
-	  justify-content: start;
+	  justify-content: center;
 	}
   }
+
+  @media only screen and (max-width: 600px) {
+  
+	.cta-banner__description {
+	  font-size: 1.125rem;
+	  text-align: center;
+	}
+  
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
+	  padding-left: 1.5rem;
+	  text-align: center;
+	}
+  
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
+	  justify-content: center;
+	}
+  }
+
+  
   
   /* -------------------------------- 
   
