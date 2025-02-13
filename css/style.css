@@ -390,7 +390,7 @@ h6 {
 
 .ryker_tm_topbar .list ul li a {
 	text-decoration: none;
-	color: #000;
+	color: white;
 	font-family: "Poppins";
 
 	-webkit-transition: all .3s ease;
@@ -399,6 +399,11 @@ h6 {
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
+
+.animate .topbar_inner .list ul li a {
+	color: #000;
+}
+
 
 .ryker_tm_topbar .list ul li a:hover {
 	color: #d1701f;
@@ -422,6 +427,8 @@ h6 {
 .trigger .hamburger {
 	padding: 0px;
 }
+
+
 
 /*---------------------------------------------------*/
 /*	03) RYKER MOBILE MENU
@@ -3630,3 +3637,23 @@ Usage: codyhouse.co/license
 	color: hsl(230, 13%, 9%);
 	background-image: linear-gradient(to right, hsl(230, 13%, 9%) 50%, hsla(230, 13%, 9%, 0.1) 50%);
   }
+
+  html {
+	scroll-behavior: smooth;
+  }
+  
+
+  .animate .trigger .hamburger-inner,
+  .animate .trigger .hamburger-inner:after,
+  .animate .trigger .hamburger-inner:before {
+	  background-color: black !important;
+  }
+
+
+.trigger .hamburger-inner,
+.trigger .hamburger-inner:after,
+.trigger .hamburger-inner:before {
+	background-color: white !important;
+}
+
+
