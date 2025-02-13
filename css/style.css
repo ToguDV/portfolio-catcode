@@ -568,7 +568,7 @@ h6 {
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
-	position:  relative;
+	position: relative;
 	z-index: 15;
 	color: #F5F5F5;
 }
@@ -580,7 +580,8 @@ h6 {
 
 .ryker_tm_hero .desc p {
 	max-width: 550px;
-	font-size: 17px;;
+	font-size: 17px;
+	;
 }
 
 .ryker_tm_button {
@@ -613,7 +614,8 @@ h6 {
 }
 
 .cta-hero a:hover {
-	color: #fff;;
+	color: #fff;
+	;
 }
 
 .ryker_tm_hero .avatar {
@@ -684,7 +686,7 @@ h6 {
 	position: absolute;
 	bottom: 8%;
 	left: auto;
-	
+
 }
 
 .short_skills .text {
@@ -3380,92 +3382,109 @@ Usage: codyhouse.co/license
 -------------------------------- */
 
 /* reset */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
 	box-sizing: border-box;
-  }
-  
-  * {
+}
+
+* {
 	font: inherit;
 	margin: 0;
 	padding: 0;
 	border: 0;
-  }
-  
-  html {
+}
+
+html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
+}
+
+body {
 	background-color: hsl(0, 0%, 100%);
 	font-family: system-ui, sans-serif;
 	color: hsl(230, 7%, 23%);
-	font-size: 1.125rem; /* 18px */
+	font-size: 1.125rem;
+	/* 18px */
 	line-height: 1.4;
-  }
-  
-  h1, h2, h3, h4 {
+}
+
+h1,
+h2,
+h3,
+h4 {
 	line-height: 1.2;
 	color: hsl(230, 13%, 9%);
 	font-weight: 700;
-  }
-  
-  h1 {
-	font-size: 2.5rem; /* 40px */
-  }
-  
-  h2 {
-	font-size: 2.125rem; /* 34px */
-  }
-  
-  h3 {
-	font-size: 1.75rem; /* 28px */
-  }
-  
-  h4 {
-	font-size: 1.375rem; /* 22px */
-  }
-  
-  ol, ul, menu {
+}
+
+h1 {
+	font-size: 2.5rem;
+	/* 40px */
+}
+
+h2 {
+	font-size: 2.125rem;
+	/* 34px */
+}
+
+h3 {
+	font-size: 1.75rem;
+	/* 28px */
+}
+
+h4 {
+	font-size: 1.375rem;
+	/* 22px */
+}
+
+ol,
+ul,
+menu {
 	list-style: none;
-  }
-  
-  button, input, textarea, select {
+}
+
+button,
+input,
+textarea,
+select {
 	background-color: transparent;
 	border-radius: 0;
 	color: inherit;
 	line-height: inherit;
 	-webkit-appearance: none;
-			appearance: none;
-  }
-  
-  textarea {
+	appearance: none;
+}
+
+textarea {
 	resize: vertical;
 	overflow: auto;
 	vertical-align: top;
-  }
-  
-  a {
+}
+
+a {
 	color: hsl(250, 84%, 54%);
-  }
-  
-  table {
+}
+
+table {
 	border-collapse: collapse;
 	border-spacing: 0;
-  }
-  
-  img, video, svg {
+}
+
+img,
+video,
+svg {
 	display: block;
 	max-width: 100%;
-  }
-  
-  /* -------------------------------- 
+}
+
+/* -------------------------------- 
   
   Buttons 
   
   -------------------------------- */
-  
-  .cd-btn {
+
+.cd-btn {
 	position: relative;
 	display: inline-flex;
 	justify-content: center;
@@ -3480,146 +3499,146 @@ Usage: codyhouse.co/license
 	cursor: pointer;
 	transition: 0.2s;
 	will-change: transform;
-  }
-  
-  .cd-btn:focus-visible {
+}
+
+.cd-btn:focus-visible {
 	outline: none;
-  }
-  
-  .cd-btn:active {
+}
+
+.cd-btn:active {
 	transform: translateY(2px);
-  }
-  
-  .cd-btn--primary {
+}
+
+.cd-btn--primary {
 	background: hsl(250, 84%, 54%);
-	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
-				0 1px 3px hsla(250, 84%, 38%, 0.25), 
-				0 2px 6px hsla(250, 84%, 38%, 0.1), 
-				0 6px 10px -2px hsla(250, 84%, 38%, 0.25);
+	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15),
+		0 1px 3px hsla(250, 84%, 38%, 0.25),
+		0 2px 6px hsla(250, 84%, 38%, 0.1),
+		0 6px 10px -2px hsla(250, 84%, 38%, 0.25);
 	color: hsl(0, 0%, 100%);
-  }
-  
-  .cd-btn--primary:hover {
+}
+
+.cd-btn--primary:hover {
 	background: hsl(250, 84%, 60%);
-	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
-				0 1px 2px hsla(250, 84%, 38%, 0.25), 
-				0 1px 4px hsla(250, 84%, 38%, 0.1), 
-				0 3px 6px -2px hsla(250, 84%, 38%, 0.25);
-  }
-  
-  .cd-btn--primary:focus-visible {
-	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
-				0 1px 2px hsla(250, 84%, 38%, 0.25), 
-				0 1px 4px hsla(250, 84%, 38%, 0.1), 
-				0 3px 6px -2px hsla(250, 84%, 38%, 0.25), 
-				0 0 0 2px hsl(0, 0%, 100%), 
-				0 0 0 4px hsl(250, 84%, 54%);
-  }
-  
-  /* -------------------------------- 
+	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15),
+		0 1px 2px hsla(250, 84%, 38%, 0.25),
+		0 1px 4px hsla(250, 84%, 38%, 0.1),
+		0 3px 6px -2px hsla(250, 84%, 38%, 0.25);
+}
+
+.cd-btn--primary:focus-visible {
+	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15),
+		0 1px 2px hsla(250, 84%, 38%, 0.25),
+		0 1px 4px hsla(250, 84%, 38%, 0.1),
+		0 3px 6px -2px hsla(250, 84%, 38%, 0.25),
+		0 0 0 2px hsl(0, 0%, 100%),
+		0 0 0 4px hsl(250, 84%, 54%);
+}
+
+/* -------------------------------- 
   
   Component 
   
   -------------------------------- */
-  
-  .cta-banner {
+
+.cta-banner {
 	background-color: #080808;
 	overflow: hidden;
-  }
-  
-  .cta-banner__grid {
-	display : grid;
+}
+
+.cta-banner__grid {
+	display: grid;
 	align-items: center;
 	gap: 1.5rem;
-  }
-  
-  .cta-banner__grid > * {
+}
+
+.cta-banner__grid>* {
 	min-width: 0;
-  }
-  
-  .cta-banner__content {
+}
+
+.cta-banner__content {
 	text-align: left;
 	display: grid;
 	gap: 0.75rem;
-  }
-  
-  .cta-banner__title {
+}
+
+.cta-banner__title {
 	font-size: 1.75rem;
 	color: #ddd;
 	padding: 5px;
 	margin-top: 50px;
-  }
-  
-  .cta-banner__description {
+}
+
+.cta-banner__description {
 	font-size: 0.9375rem;
 	color: #F9F9F9;
-  }
-  
-  .cta-banner__btns {
+}
+
+.cta-banner__btns {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
 	margin-top: 20px;
-  }
-  
-  .cta-banner__img {
+}
+
+.cta-banner__img {
 	width: 500px;
 	transform: scaleX(-1);
-  }
-  
-  @media (min-width: 64rem) {
+}
+
+@media (min-width: 64rem) {
 	.cta-banner__grid {
-	  grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
-  
-	.cta-banner__description {
-	  font-size: 1.125rem;
-	}
-  
-	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
-	  padding-left: 1.5rem;
-	  text-align: left;
-	}
-  
-	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
-	  justify-content: center;
-	}
-  }
 
-  @media only screen and (max-width: 600px) {
-  
 	.cta-banner__description {
-	  font-size: 1.125rem;
-	  text-align: center;
+		font-size: 1.125rem;
 	}
-  
-	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
-	  padding-left: 1.5rem;
-	  text-align: center;
-	}
-  
-	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
-	  justify-content: center;
-	}
-  }
 
-  
-  
-  /* -------------------------------- 
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
+		padding-left: 1.5rem;
+		text-align: left;
+	}
+
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.cta-banner__description {
+		font-size: 1.125rem;
+		text-align: center;
+	}
+
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
+		padding-left: 1.5rem;
+		text-align: center;
+	}
+
+	.cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
+		justify-content: center;
+	}
+}
+
+
+
+/* -------------------------------- 
   
   Utilities 
   
   -------------------------------- */
-  
-  .cd-padding-sm {
+
+.cd-padding-sm {
 	padding: 1.5rem;
-  }
-  
-  .cd-radius-md {
+}
+
+.cd-radius-md {
 	border-radius: 0.375em;
-  }
-  
-  .cd-link {
+}
+
+.cd-link {
 	color: hsl(250, 84%, 54%);
 	text-decoration: none;
 	background-image: linear-gradient(to right, hsl(250, 84%, 54%) 50%, hsla(250, 84%, 54%, 0.2) 50%);
@@ -3627,33 +3646,30 @@ Usage: codyhouse.co/license
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 	transition: background-position 0.2s;
-  }
-  
-  .cd-link:hover {
+}
+
+.cd-link:hover {
 	background-position: 0% 100%;
-  }
-  
-  .cd-link--contrast-higher {
+}
+
+.cd-link--contrast-higher {
 	color: hsl(230, 13%, 9%);
 	background-image: linear-gradient(to right, hsl(230, 13%, 9%) 50%, hsla(230, 13%, 9%, 0.1) 50%);
-  }
+}
 
-  html {
+html {
 	scroll-behavior: smooth;
-  }
-  
+}
 
-  .animate .trigger .hamburger-inner,
-  .animate .trigger .hamburger-inner:after,
-  .animate .trigger .hamburger-inner:before {
-	  background-color: black !important;
-  }
-
-
-.trigger .hamburger-inner,
-.trigger .hamburger-inner:after,
-.trigger .hamburger-inner:before {
+.ryker_tm_topbar .trigger .hamburger-inner,
+.ryker_tm_topbar .trigger .hamburger-inner:after,
+.ryker_tm_topbar .trigger .hamburger-inner:before {
 	background-color: white !important;
 }
 
+.animate .trigger .hamburger-inner,
+.animate .trigger .hamburger-inner:after,
+.animate .trigger .hamburger-inner:before {
+	background-color: black !important;
+}
 
